@@ -20,14 +20,7 @@ namespace BasicRpgLib
         public int Level;
         //public List<Spell> Spells;
         
-        public int CalculateWeaponDamage()
-        {
-            //TODO: STUB
-
-            return 0;
-        }
-
-        public int CalculateMagicDamage()
+        public int CalculateDamage(int min, int max, int bonus)
         {
             //TODO: STUB
 
